@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        "theme1": ["#ffc200"],
+        "theme2": ["#333333"]
+
+      },
       fontFamily: {
         "mont": ["Montserrat", "sans-serif"],
         "grand": ["Grand Hotel", "cursive"]

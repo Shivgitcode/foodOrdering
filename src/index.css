@@ -7,8 +7,32 @@
 
 @layer utilities {
   .heroBg {
+    background-image: url("./assets/mainImg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
+
+  .sectionBg {
+
+    background-image: url("./assets/bar1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .sectionBg2 {
+
+    background-image: url("./assets/bar2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .sectionBg3 {
     background-image: url("./assets/Herobg.svg");
     background-repeat: no-repeat;
     background-size: cover;
+
   }
 }
