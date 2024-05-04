@@ -6,7 +6,7 @@ export default function FooterCard({ el }) {
             <ul className="flex flex-col items-start gap-4">
                 {
                     el.links.map(link => (
-                        <li className="text-white text-lg">{link}</li>
+                        <li className="text-white text-lg sm:leading-[normal]">{link}</li>
                     ))
                 }
             </ul>

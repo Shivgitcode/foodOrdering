@@ -3,9 +3,9 @@ import { bestSellar } from "../utils";
 export default function BestSeller() {
     return (
         <div>
-            <div className=" p-8 flex flex-col items-center">
+            <div className=" p-8 sm:p-[80px] flex flex-col items-center">
                 <h2 className="text-[48px] font-bold font-grand">Best Sellar</h2>
-                <p className="text-center text-[16px] mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium placeat sunt nobis quis repellendus in.</p>
+                <p className="text-center text-[20px] mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium placeat sunt nobis quis repellendus in.</p>
                 <div className="flex flex-col w-full items-center mt-[80px] gap-4 sm:flex-row sm:justify-center">
                     {bestSellar.map((sellar) => (
                         <div className="flex flex-col items-center gap-4">
