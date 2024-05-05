@@ -11,6 +11,7 @@ import facebook from "./Facebook.svg"
 import Search from "./Search.svg"
 import main from "./mainImg.svg"
 import grey from "./greypatch.svg"
+import main2 from "./main2.svg"
 
 export {
     logo,
@@ -25,5 +26,6 @@ export {
     facebook,
     Search,
     main,
-    grey
+    grey,
+    main2
 }

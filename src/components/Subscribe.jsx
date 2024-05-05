@@ -1,7 +1,7 @@
 
 export default function Subscribe() {
     return (
-        <div className="flex justify-center items-center pb-40 sm:py-40">
+        <div className="flex justify-center items-center pb-40 sm:py-40 sm:pb-44">
             <div className="flex flex-col items-center mt-16">
                 <h3 className=" font-bold text-[80px] font-grand mt-4 sm:text-[112px] ">Subscribe</h3>
                 <p className="text-center text-[24px] w-[40%] sm:text-[32px] sm:w-[45%]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi quam eveniet excepturi asperiores.</p>

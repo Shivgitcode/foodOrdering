@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         "theme1": ["#ffc200"],
-        "theme2": ["#333333"]
+        "theme2": ["#333333"],
+        "theme3": ["#2f2f2f"]
 
       },
       fontFamily: {
