@@ -1,10 +1,11 @@
 import Heading from "./Heading";
 import Statistics from "./Statistics";
 import Grill from "./Grill";
+import { Element } from "react-scroll";
 
 export default function Oriental() {
     return (
-        <div>
+        <Element name="promo">
             <div>
                 <Heading direction={"flex-col"}></Heading>
 
@@ -14,6 +15,6 @@ export default function Oriental() {
 
 
             </div>
-        </div>
+        </Element>
     )
 }

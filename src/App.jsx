@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className=' font-mont'>
+    <div className=' font-mont scroll-smooth'>
       <Navbar></Navbar>
       <main>
         <Hero></Hero>

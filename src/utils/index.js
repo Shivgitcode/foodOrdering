@@ -1,11 +1,11 @@
 import { Instagram, Twitter, facebook, img1, img2, img3, whatsapp } from "../assets"
 
 export const navbar = [
-    { id: 1, name: "Home", link: "Home" },
-    { id: 2, name: "Product", link: "product" },
-    { id: 3, name: "Promo", link: "promo" },
-    { id: 4, name: "About", link: "About" },
-    { id: 5, name: "Contact", link: "contact" }
+    { id: 1, name: "Home", link: "Home", active: true },
+    { id: 2, name: "Product", link: "product", active: false },
+    { id: 3, name: "Promo", link: "promo", active: false },
+    { id: 4, name: "About", link: "About", active: false },
+    { id: 5, name: "Contact", link: "contact", active: false }
 ]
 
 export const bestSellar = [

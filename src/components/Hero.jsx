@@ -1,4 +1,4 @@
-import { grey, main } from "../assets";
+import { design, grey, main } from "../assets";
 import Button from "./Button";
 
 export default function Hero() {
@@ -6,6 +6,9 @@ export default function Hero() {
         <div className='heroBg sm:bg-none w-full relative sm:bg-cover sm:h-[870px] overflow-hidden'>
             <div className=" hidden w-full sm:block absolute">
                 <img src={main} alt="" className="h-[100vh] object-cover" />
+            </div>
+            <div className=" absolute z-[1] right-[130px] top-10 w-[60%]">
+                <img src={design} alt="" className="w-full" />
             </div>
             <div className=" absolute opacity-40 bg-[#333333] w-full h-full sm:hidden"></div>
             <div className="absolute right-[-70px] overflow-hidden top-[-600px] w-[80%] sm:block hidden">
