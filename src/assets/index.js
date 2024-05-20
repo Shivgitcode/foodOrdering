@@ -13,6 +13,8 @@ import main from "./mainImg.svg"
 import grey from "./greypatch.svg"
 import main2 from "./main2.svg"
 import design from "./Group 1 (1).svg"
+import design2 from "./Design.svg"
+import design3 from "./Design (1).svg"
 
 export {
     logo,
@@ -29,5 +31,7 @@ export {
     main,
     grey,
     main2,
-    design
+    design,
+    design2,
+    design3
 }

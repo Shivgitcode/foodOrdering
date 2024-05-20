@@ -1,8 +1,12 @@
+import { design, design2 } from "../../assets";
 import { info } from "../../utils";
 
 export default function Statistics() {
     return (
-        <section className=" p-8 flex flex-col items-center bg-theme2-0 ">
+        <section className=" p-8 flex flex-col items-center bg-theme2-0 relative ">
+            <div className="absolute w-[90%] top-0">
+                <img src={design2} alt="" className="w-full" />
+            </div>
             <h3 className=" font-grand font-bold text-[112px] text-theme1-0">Statistics</h3>
             <p className=" font-medium text-center text-[24px] mt-8 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ullam rerum eius perspiciatis.</p>
             <div className="mt-[80px] flex flex-col items-center gap-12 sm:flex-row">
